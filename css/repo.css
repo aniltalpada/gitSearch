@@ -88,13 +88,14 @@
 }
 
 #repo__component-main{
-	color: #009168;
+	color: #07215a;
 	flex: 2;
 	display: flex;
 	flex-direction: column;
-	/*word-break: break-all;*/
+	word-break: break-all;
 	/*justify-content: center;*/
-	/*font-weight: lighter;*/
+	font-weight: bold;
+	font-size: 17px;
 }
 
 #repo__component-main p{
@@ -114,12 +115,16 @@
 }
 
 #repo__component-icons{
-	color: #009168;
+	color: #dca203;
 	display: flex;
 }
 
 #repo__component-icons p{
 	padding: 0 5px;
+	font-size: 10px;
+}
+#repo__component-icons span{
+	color: #000000;
 	font-size: 10px;
 }
 
@@ -128,5 +133,862 @@
 	/*font-weight: 600;*/
 }
 
+/* .pagination {
+	display: inline-block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+ */
+ #repo{
+	padding: 30px;
+}
 
+#repo__user-container{
+	margin: 0 0 1rem 0;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+}
 
+#back__btn{
+	background-color: transparent;
+	margin: 2rem 0 1rem 0;
+	border: none;
+	font-size: 1rem;
+	align-self: flex-start;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	/*position: absolute;*/
+	left: 5rem;
+}
+
+#back__btn:hover{
+	transform: scale(1.2);
+}
+
+#back__btn:active{
+	transform: scale(1.2);
+}
+
+#repo__user-info{
+	align-items: center;
+}
+
+#repo__user-image{
+	background-image: url(/images/octocat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 5rem;
+	width: 5rem;
+	padding: 2rem;
+	border-radius: 100%;
+}
+
+#repo__user-name{
+	font-size: 14px;
+}
+
+#repo__user-name p{
+	color: #79968d;
+	font-size: 10px;
+}
+
+#repo__user-count{
+	font-size: 12px;
+}
+
+#repo__user-count span{
+	color: #009168;
+	padding: 0 5px;
+	font-size: 1.2rem;
+	font-family: poppins;
+}
+
+#repo__container{
+}
+
+#repo__component{
+	background-color: #d8f5ec;
+	/*height: 5rem;*/
+	width: 80%;
+	padding: 10px 10px;
+	margin: 20px 0;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	transition: all 1s ease-out;
+}
+
+#repo__component:hover{
+	/*background-color: red;*/
+	box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+#repo__component-main{
+	color: #07215a;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	word-break: break-all;
+	/*justify-content: center;*/
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#repo__component-main p{
+	color: #5d736c;
+	margin: 0.5rem 0 0.5rem 0;
+	width: 70%;
+	/*word-break: break-all;*/
+	font-size: 10px;
+}
+
+#repo__component-footer{
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#repo__component-icons{
+	color: #dca203;
+	display: flex;
+}
+
+#repo__component-icons p{
+	padding: 0 5px;
+	font-size: 10px;
+}
+#repo__component-icons span{
+	color: #000000;
+	font-size: 10px;
+}
+
+#repo__component-language p{
+	font-size: 11px;
+	/*font-weight: 600;*/
+}
+
+/* .pagination {
+	display: inline-block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+ */
+ #repo{
+	padding: 30px;
+}
+
+#repo__user-container{
+	margin: 0 0 1rem 0;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+}
+
+#back__btn{
+	background-color: transparent;
+	margin: 2rem 0 1rem 0;
+	border: none;
+	font-size: 1rem;
+	align-self: flex-start;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	/*position: absolute;*/
+	left: 5rem;
+}
+
+#back__btn:hover{
+	transform: scale(1.2);
+}
+
+#back__btn:active{
+	transform: scale(1.2);
+}
+
+#repo__user-info{
+	align-items: center;
+}
+
+#repo__user-image{
+	background-image: url(/images/octocat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 5rem;
+	width: 5rem;
+	padding: 2rem;
+	border-radius: 100%;
+}
+
+#repo__user-name{
+	font-size: 14px;
+}
+
+#repo__user-name p{
+	color: #79968d;
+	font-size: 10px;
+}
+
+#repo__user-count{
+	font-size: 12px;
+}
+
+#repo__user-count span{
+	color: #009168;
+	padding: 0 5px;
+	font-size: 1.2rem;
+	font-family: poppins;
+}
+
+#repo__container{
+}
+
+#repo__component{
+	background-color: #d8f5ec;
+	/*height: 5rem;*/
+	width: 80%;
+	padding: 10px 10px;
+	margin: 20px 0;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	transition: all 1s ease-out;
+}
+
+#repo__component:hover{
+	/*background-color: red;*/
+	box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+#repo__component-main{
+	color: #07215a;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	word-break: break-all;
+	/*justify-content: center;*/
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#repo__component-main p{
+	color: #5d736c;
+	margin: 0.5rem 0 0.5rem 0;
+	width: 70%;
+	/*word-break: break-all;*/
+	font-size: 10px;
+}
+
+#repo__component-footer{
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#repo__component-icons{
+	color: #dca203;
+	display: flex;
+}
+
+#repo__component-icons p{
+	padding: 0 5px;
+	font-size: 10px;
+}
+#repo__component-icons span{
+	color: #000000;
+	font-size: 10px;
+}
+
+#repo__component-language p{
+	font-size: 11px;
+	/*font-weight: 600;*/
+}
+
+/* .pagination {
+	display: inline-block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+ */
+ #repo{
+	padding: 30px;
+}
+
+#repo__user-container{
+	margin: 0 0 1rem 0;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+}
+
+#back__btn{
+	background-color: transparent;
+	margin: 2rem 0 1rem 0;
+	border: none;
+	font-size: 1rem;
+	align-self: flex-start;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	/*position: absolute;*/
+	left: 5rem;
+}
+
+#back__btn:hover{
+	transform: scale(1.2);
+}
+
+#back__btn:active{
+	transform: scale(1.2);
+}
+
+#repo__user-info{
+	align-items: center;
+}
+
+#repo__user-image{
+	background-image: url(/images/octocat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 5rem;
+	width: 5rem;
+	padding: 2rem;
+	border-radius: 100%;
+}
+
+#repo__user-name{
+	font-size: 14px;
+}
+
+#repo__user-name p{
+	color: #79968d;
+	font-size: 10px;
+}
+
+#repo__user-count{
+	font-size: 12px;
+}
+
+#repo__user-count span{
+	color: #009168;
+	padding: 0 5px;
+	font-size: 1.2rem;
+	font-family: poppins;
+}
+
+#repo__container{
+}
+
+#repo__component{
+	background-color: #d8f5ec;
+	/*height: 5rem;*/
+	width: 80%;
+	padding: 10px 10px;
+	margin: 20px 0;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	transition: all 1s ease-out;
+}
+
+#repo__component:hover{
+	/*background-color: red;*/
+	box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+#repo__component-main{
+	color: #07215a;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	word-break: break-all;
+	/*justify-content: center;*/
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#repo__component-main p{
+	color: #5d736c;
+	margin: 0.5rem 0 0.5rem 0;
+	width: 70%;
+	/*word-break: break-all;*/
+	font-size: 10px;
+}
+
+#repo__component-footer{
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#repo__component-icons{
+	color: #dca203;
+	display: flex;
+}
+
+#repo__component-icons p{
+	padding: 0 5px;
+	font-size: 10px;
+}
+#repo__component-icons span{
+	color: #000000;
+	font-size: 10px;
+}
+
+#repo__component-language p{
+	font-size: 11px;
+	/*font-weight: 600;*/
+}
+
+/* .pagination {
+	display: inline-block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+ */
+ #repo{
+	padding: 30px;
+}
+
+#repo__user-container{
+	margin: 0 0 1rem 0;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+}
+
+#back__btn{
+	background-color: transparent;
+	margin: 2rem 0 1rem 0;
+	border: none;
+	font-size: 1rem;
+	align-self: flex-start;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	/*position: absolute;*/
+	left: 5rem;
+}
+
+#back__btn:hover{
+	transform: scale(1.2);
+}
+
+#back__btn:active{
+	transform: scale(1.2);
+}
+
+#repo__user-info{
+	align-items: center;
+}
+
+#repo__user-image{
+	background-image: url(/images/octocat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 5rem;
+	width: 5rem;
+	padding: 2rem;
+	border-radius: 100%;
+}
+
+#repo__user-name{
+	font-size: 14px;
+}
+
+#repo__user-name p{
+	color: #79968d;
+	font-size: 10px;
+}
+
+#repo__user-count{
+	font-size: 12px;
+}
+
+#repo__user-count span{
+	color: #009168;
+	padding: 0 5px;
+	font-size: 1.2rem;
+	font-family: poppins;
+}
+
+#repo__container{
+}
+
+#repo__component{
+	background-color: #d8f5ec;
+	/*height: 5rem;*/
+	width: 80%;
+	padding: 10px 10px;
+	margin: 20px 0;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	transition: all 1s ease-out;
+}
+
+#repo__component:hover{
+	/*background-color: red;*/
+	box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+#repo__component-main{
+	color: #07215a;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	word-break: break-all;
+	/*justify-content: center;*/
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#repo__component-main p{
+	color: #5d736c;
+	margin: 0.5rem 0 0.5rem 0;
+	width: 70%;
+	/*word-break: break-all;*/
+	font-size: 10px;
+}
+
+#repo__component-footer{
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#repo__component-icons{
+	color: #dca203;
+	display: flex;
+}
+
+#repo__component-icons p{
+	padding: 0 5px;
+	font-size: 10px;
+}
+#repo__component-icons span{
+	color: #000000;
+	font-size: 10px;
+}
+
+#repo__component-language p{
+	font-size: 11px;
+	/*font-weight: 600;*/
+}
+
+/* .pagination {
+	display: inline-block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+ */
+ #repo{
+	padding: 30px;
+}
+
+#repo__user-container{
+	margin: 0 0 1rem 0;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+}
+
+#back__btn{
+	background-color: transparent;
+	margin: 2rem 0 1rem 0;
+	border: none;
+	font-size: 1rem;
+	align-self: flex-start;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	/*position: absolute;*/
+	left: 5rem;
+}
+
+#back__btn:hover{
+	transform: scale(1.2);
+}
+
+#back__btn:active{
+	transform: scale(1.2);
+}
+
+#repo__user-info{
+	align-items: center;
+}
+
+#repo__user-image{
+	background-image: url(/images/octocat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 5rem;
+	width: 5rem;
+	padding: 2rem;
+	border-radius: 100%;
+}
+
+#repo__user-name{
+	font-size: 14px;
+}
+
+#repo__user-name p{
+	color: #79968d;
+	font-size: 10px;
+}
+
+#repo__user-count{
+	font-size: 12px;
+}
+
+#repo__user-count span{
+	color: #009168;
+	padding: 0 5px;
+	font-size: 1.2rem;
+	font-family: poppins;
+}
+
+#repo__container{
+}
+
+#repo__component{
+	background-color: #d8f5ec;
+	/*height: 5rem;*/
+	width: 80%;
+	padding: 10px 10px;
+	margin: 20px 0;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	transition: all 1s ease-out;
+}
+
+#repo__component:hover{
+	/*background-color: red;*/
+	box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+#repo__component-main{
+	color: #07215a;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	word-break: break-all;
+	/*justify-content: center;*/
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#repo__component-main p{
+	color: #5d736c;
+	margin: 0.5rem 0 0.5rem 0;
+	width: 70%;
+	/*word-break: break-all;*/
+	font-size: 10px;
+}
+
+#repo__component-footer{
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#repo__component-icons{
+	color: #dca203;
+	display: flex;
+}
+
+#repo__component-icons p{
+	padding: 0 5px;
+	font-size: 10px;
+}
+#repo__component-icons span{
+	color: #000000;
+	font-size: 10px;
+}
+
+#repo__component-language p{
+	font-size: 11px;
+	/*font-weight: 600;*/
+}
+
+/* .pagination {
+	display: inline-block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+ */
+ #repo{
+	padding: 30px;
+}
+
+#repo__user-container{
+	margin: 0 0 1rem 0;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+}
+
+#back__btn{
+	background-color: transparent;
+	margin: 2rem 0 1rem 0;
+	border: none;
+	font-size: 1rem;
+	align-self: flex-start;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	/*position: absolute;*/
+	left: 5rem;
+}
+
+#back__btn:hover{
+	transform: scale(1.2);
+}
+
+#back__btn:active{
+	transform: scale(1.2);
+}
+
+#repo__user-info{
+	align-items: center;
+}
+
+#repo__user-image{
+	background-image: url(/images/octocat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 5rem;
+	width: 5rem;
+	padding: 2rem;
+	border-radius: 100%;
+}
+
+#repo__user-name{
+	font-size: 14px;
+}
+
+#repo__user-name p{
+	color: #79968d;
+	font-size: 10px;
+}
+
+#repo__user-count{
+	font-size: 12px;
+}
+
+#repo__user-count span{
+	color: #009168;
+	padding: 0 5px;
+	font-size: 1.2rem;
+	font-family: poppins;
+}
+
+#repo__container{
+}
+
+#repo__component{
+	background-color: #d8f5ec;
+	/*height: 5rem;*/
+	width: 80%;
+	padding: 10px 10px;
+	margin: 20px 0;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	transition: all 1s ease-out;
+}
+
+#repo__component:hover{
+	/*background-color: red;*/
+	box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+#repo__component-main{
+	color: #07215a;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	word-break: break-all;
+	/*justify-content: center;*/
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#repo__component-main p{
+	color: #5d736c;
+	margin: 0.5rem 0 0.5rem 0;
+	width: 70%;
+	/*word-break: break-all;*/
+	font-size: 10px;
+}
+
+#repo__component-footer{
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#repo__component-icons{
+	color: #dca203;
+	display: flex;
+}
+
+#repo__component-icons p{
+	padding: 0 5px;
+	font-size: 10px;
+}
+#repo__component-icons span{
+	color: #000000;
+	font-size: 10px;
+}
+
+#repo__component-language p{
+	font-size: 11px;
+	/*font-weight: 600;*/
+}
+
+/* .pagination {
+	display: inline-block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+ */
