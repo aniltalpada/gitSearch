@@ -54,7 +54,7 @@ const responsive = () => {
 	}
 }
 
-let inputValue = 'octocat'
+let inputValue = 'aniltalpada'
 
 const searchUser = () => {
 	const inputData = document.querySelector('#input__field')
@@ -76,7 +76,7 @@ const display = async (user = inputValue) => {
 	responsive()
 }
 
-display('octocat')
+display('aniltalpada')
 
 methods()
 
