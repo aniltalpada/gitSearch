@@ -54,7 +54,7 @@ const responsive = () => {
 	}
 }
 
-let inputValue = 'aniltalpada'
+let inputValue = 'ex'
 
 const searchUser = () => {
 	const inputData = document.querySelector('#input__field')
@@ -76,7 +76,7 @@ const display = async (user = inputValue) => {
 	responsive()
 }
 
-display('aniltalpada')
+display('ex')
 
 methods()
 
